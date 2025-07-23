@@ -56,7 +56,7 @@ const FreeAuditPage: React.FC = () => {
         {/* Form Section */}
         <div className="max-w-2xl mx-auto bg-gray-50 p-8 md:p-12 rounded-xl border-2 border-brand-gold">
             <h2 className="text-3xl font-bold text-center text-brand-navy mb-6">Get Your Free Audit Started</h2>
-            <form name="policy-audit" method="POST" data-netlify="true" data-netlify-honeypot="bot-field" data-netlify-recaptcha="true" action="/#/thank-you">
+            <form name="policy-audit" method="POST" data-netlify="true" data-netlify-honeypot="bot-field" data-netlify-recaptcha="true" action=>
               <input type="hidden" name="form-name" value="policy-audit" />
               <p className="hidden">
                 <label>Don’t fill this out if you’re human: <input name="bot-field" /></label>
